@@ -1,5 +1,6 @@
 # Aditional files to be ignored
 credentials.py
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
