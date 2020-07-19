@@ -4,9 +4,9 @@ from time import sleep
 import datetime
 import os
 
-GDRIVE_PATH = '/Volumes/GoogleDrive/My Drive/Awari DS - Turma Mai 20/_Live Code'
-USE_CREDENTIALS_FILE = True
-EXPORT_GDRIVE = True
+GDRIVE_PATH = '/Volumes/GoogleDrive/My Drive/'
+USE_CREDENTIALS_FILE = False
+EXPORT_GDRIVE = False
 EXPORT_GITHUB = True
 
 # XPATHS
@@ -55,6 +55,7 @@ def colab_signin():
 
     # Clicar em sign in
     c.click(SIGNIN_XP)
+    sleep(3)
     google_login(c, USE_CREDENTIALS_FILE)
 
     # Wait for opening notebook material
@@ -89,7 +90,8 @@ if __name__ == '__main__':
         print('Watching and exporting code...')
         while True:
             code = get_colab_code(chrome)
-            write_code(code, fpath=GDRIVE_PATH+'/'+fname)
+            if EXPORT_GDRIVE:
+                write_code(code, fpath=GDRIVE_PATH+'/'+fname)
 
             if EXPORT_GITHUB:
                 export_github(code, fpath= './output/'+fname)
