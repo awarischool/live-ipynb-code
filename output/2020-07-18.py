@@ -1,19 +1,3 @@
-print('/')
-print('notebook a ser utilizado')
-oiii
-print('/')
-print('notebook a ser utilizado')
-oiii
- print('/')
-print('notebook a ser utilizado')
-oiii
- print('/')
-print('notebook a ser utilizado')
-oiii
- print('/')
-print('notebook a ser utilizado')
-oiii
-fjdsajfls
  
 
 for i in range(10):
