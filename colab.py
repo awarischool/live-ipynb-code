@@ -2,43 +2,49 @@ from driverutils import ChromeBot
 from getpass import getpass
 from time import sleep
 import datetime
+import os
 
-BLACKBOARD_PATH = '/Volumes/GoogleDrive/My Drive/Awari DS - Turma Mai 20/_Live Code'
+GDRIVE_PATH = '/Volumes/GoogleDrive/My Drive/Awari DS - Turma Mai 20/_Live Code'
 USE_CREDENTIALS_FILE = True
-CREDENTIALS_TOKEN = 'abc'
+EXPORT_GDRIVE = True
+EXPORT_GITHUB = True
 
-# Colocando dentro de funcao para que variavel pwd nao fique salva no resto do programa
+# XPATHS
+SIGNIN_XP = '//*[@id="gb"]/div/div[1]/a'
+USERNAME_XP = '//*[@id="identifierId"]'
+USER_NEXT = '//*[@id="identifierNext"]/div/button/div[2]'
+PWD_XP = '//*[@id="password"]/div[1]/div/div[1]/input'
+PWD_NEXT = '//*[@id="passwordNext"]/div/button/div[2]'
+
+# Colocando dentro de funcao para que variavel pwd nao fique salva 
+# no resto do programa
 def google_login(c, use_credentials_file=False):
-
     if not use_credentials_file:
         email = input('Email: ')
         pwd = getpass('Senha: ')
     else:
         try:
             from credentials import get_credentials
-            email, pwd = get_credentials(CREDENTIALS_TOKEN)
+            email, pwd = get_credentials()
         except:
             print("Failure when retrieving credentials")
 
     # Escrever usuario e clicar em next
-    c.send_keys('//*[@id="identifierId"]', email)
-    c.click('//*[@id="identifierNext"]/div/button/div[2]')
-
+    c.send_keys(USERNAME_XP, email)
+    c.click(USER_NEXT)
     sleep(3)
+
     # Escrever senha e next
-    c.send_keys('//*[@id="password"]/div[1]/div/div[1]/input', pwd)
-    c.click('//*[@id="passwordNext"]/div/button/div[2]')
-
-    # Verificar se há algum passo adicional
-    input('Open notebook for class and press enter to continue')
+    c.send_keys(PWD_XP, pwd)
+    c.click(PWD_NEXT)
 
 
-def pegar_codigo(chrome):
-    # Pegar blocos de códigos
+def get_colab_code(chrome):
+    # Get all codeblocks
     codeblocks = chrome.driver.find_elements_by_class_name('editor')
 
-    # Converter todos os blocos para texto
-    code = '\n\n'.join([cd.text for cd in codeblocks])
+    # Convert codeblocks to text
+    code = """\n\n""".join([cd.text for cd in codeblocks])
 
     return code
 
@@ -46,29 +52,47 @@ def colab_signin():
     c = ChromeBot()
     c.driver.implicitly_wait(10)
     c.driver.get('https://colab.research.google.com')
+
     # Clicar em sign in
-    c.click('//*[@id="gb"]/div/div[1]/a')
+    c.click(SIGNIN_XP)
     google_login(c, USE_CREDENTIALS_FILE)
+
+    # Wait for opening notebook material
+    colab_url = input("Open notebook manually or input its url here. Then, press enter to continue: ")
+    if colab_url!='':
+        c.driver.get(colab_url)
+
     return c
 
 def write_code(code, fpath='test.py'):
     with open(fpath, mode='w') as f:
-        f.write(code)
+        f.writelines(code)
+        #f.write(code)
+
+def export_github(code, fpath):
+    write_code(code, fpath)
+    os.system('git add output')
+    os.system('git commit -m "update live code"')
+    os.system('git push')
+
 
 if __name__ == '__main__':
-    # Pegar data local
+    # Get current date time as filename
     now = datetime.datetime.now()
     fname = now.strftime("%Y-%m-%d.py")
 
-    # Iniciar sessão e logar no colab
+    # Start session and sign in to colab
     chrome = colab_signin()
 
-    # Loop para vigiar e exportar código
+    # Watch and export code
     try:
-        print('Iniciando loop para vigiar e exportar código')
+        print('Watching and exporting code...')
         while True:
-            code = pegar_codigo(chrome)
-            write_code(code, fpath=BLACKBOARD_PATH+'/'+fname)
+            code = get_colab_code(chrome)
+            write_code(code, fpath=GDRIVE_PATH+'/'+fname)
+
+            if EXPORT_GITHUB:
+                export_github(code, fpath= './output/'+fname)
             sleep(10)
     except:
         print("Execution has been interrupted")
