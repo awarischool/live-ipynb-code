@@ -1,6 +1,8 @@
-f"'{print('hello')}
+f"{print('hello')}"
 f'{print('hello')}
 f"{print('hello')}"
+ f"'{print('hello')}
+ 
 
 for i in range(10):
   print(i)
