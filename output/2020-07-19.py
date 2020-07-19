@@ -5,11 +5,11 @@ import numpy as np
 import pandas as pd
 from time import sleep
 
-requests.get('https://imoveis.mercadolivre.com.br/casas/aluguel/sao-paulo/sao-paulo-zona-sul/_Desde_145
+requests.get('https://imoveis.mercadolivre.com.br/casas/aluguel/sao-paulo/sao-paulo-zona-sul/_Desde_145').content
 
 ZONAS = ['norte', 'sul', 'leste', 'oeste']
-PAGINAS = ['', '_Desde_49', '_Desde_97', '_Desde_145', '_Desde_193', '_Desde_241'
-URL_ML = 'https://imoveis.mercadolivre.com.br/casas/aluguel/sao-paulo/sao-paulo-zona-{}/{}
+PAGINAS = ['', '_Desde_49', '_Desde_97', '_Desde_145', '_Desde_193', '_Desde_241']
+URL_ML = 'https://imoveis.mercadolivre.com.br/casas/aluguel/sao-paulo/sao-paulo-zona-{}/{}'
  # Podemos definir dois padrões regex, um para o numero de quartos e outro para a area
 re_quarto = '\| (.*) quarto'
 re_area = '> (.*) m²'
