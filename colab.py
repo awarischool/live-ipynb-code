@@ -16,8 +16,6 @@ USER_NEXT = '//*[@id="identifierNext"]/div/button/div[2]'
 PWD_XP = '//*[@id="password"]/div[1]/div/div[1]/input'
 PWD_NEXT = '//*[@id="passwordNext"]/div/button/div[2]'
 
-# Colocando dentro de funcao para que variavel pwd nao fique salva 
-# no resto do programa
 def google_login(c, use_credentials_file=False):
     if not use_credentials_file:
         email = input('Email: ')
@@ -53,7 +51,6 @@ def colab_signin():
     c.driver.implicitly_wait(10)
     c.driver.get('https://colab.research.google.com')
 
-    # Clicar em sign in
     c.click(SIGNIN_XP)
     sleep(3)
     google_login(c, USE_CREDENTIALS_FILE)
