@@ -1,7 +1,7 @@
 # Jupyter and Google Colab Live Coding
 Educational tool for displaying code from Jupyter (under development) and Google Colab environments in almost real time.
 
-# Real Time Google Colab Instructions
+## Google Colab Instructions
 
 1. Fork this repository
 2. (Optional) Add a `credentials.py` with a `get_credentials()` functions that returns your Google Colab username and password. The `credentials.py` is already being ignored by `.gitignore`. As a suggestion, use keyring for storing your password:
