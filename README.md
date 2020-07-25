@@ -27,4 +27,6 @@ def get_credentials():
 ```
 $ python colab.py
 ```
-4. Is case the 'credentials.py' file is not present, you will be asked to insert your colab's username and password (note: the password is being collected using `getpass.getpass` and is automatically deleted after its usage. Check the source code for further info. 
+4. Is case the 'credentials.py' file is not present, you will be asked to login manually on google colab and then open the ipynb file that you would like to live share. Check the source code for further info. 
+
+5. The live code will be pushed to the output folder in this repository every 10 seconds with the name pattern: YEAR-MONTH-DAY.py
