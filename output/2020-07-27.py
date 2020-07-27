@@ -30,7 +30,7 @@ $$aluguel = area * w_1 + quartos * w_2 + b$$
    - S1: Associar um número inteiro para cada zona (1 - Norte, 2 - Sul, 3 
 - Leste, 4 - Oeste)
        - P: Não há proporcionalidade entre zonas
-   - Associar uma nova "variáevl
+   - Associar uma nova "variável" para cada zona
  
 
 import pandas as pd
