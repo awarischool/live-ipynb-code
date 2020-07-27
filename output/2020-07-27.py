@@ -53,6 +53,8 @@ reg.fit(X, y)
 
 reg.coef_
 
+X.head()
+
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
 
