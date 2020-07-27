@@ -18,8 +18,9 @@ df = pd.read_csv('https://raw.githubusercontent.com/WittmannF/awari-calculadora-
 df.head()
 
 min_area = 90
- max_area = 120
-df_filtrado = df[(df['zona']=='leste')&(df['quartos']==2.0)]
- df_filtrado[df_filtrado['area']<]
+max_area = 120
+ df_filtrado = df[(df['zona']=='leste')&(df['quartos']==2.0)]
+
+  df_filtrado[df_filtrado['area']>=]
 
  
