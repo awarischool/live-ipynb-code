@@ -29,7 +29,8 @@ $$aluguel = area * w_1 + quartos * w_2 + b$$
 - Como tratar a coluna zonas
    - S1: Associar um número inteiro para cada zona (1 - Norte, 2 - Sul, 3 
 - Leste, 4 - Oeste)
-       - P: 
+       - P: Não há proporcionalidade entre zonas
+   - Associar 
  
 
 import pandas as pd
