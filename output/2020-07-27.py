@@ -45,10 +45,7 @@ X.head()
 # 𝑎𝑙𝑢𝑔𝑢𝑒𝑙=𝑎𝑟𝑒𝑎∗𝑤1+𝑞𝑢𝑎𝑟𝑡𝑜𝑠∗𝑤2+𝑧𝑙𝑒𝑠𝑡𝑒∗𝑤3+𝑧𝑛𝑜𝑟𝑡𝑒∗𝑤4+𝑧𝑜𝑒𝑠𝑡𝑒∗𝑤5+𝑧𝑠𝑢𝑙∗𝑤6+𝑏
 import numpy as np
 from sklearn.linear_model import LinearRegression
-X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])
-# y = 1 * x_0 + 2 * x_1 + 3
-y = np.dot(X, np.array([1, 2])) + 3
-reg = LinearRegression().fit(X, y)
+ reg = LinearRegression().fit(X, y)
 reg.score(X, y)
  reg.coef_
  reg.intercept_
