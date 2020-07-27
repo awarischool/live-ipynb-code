@@ -39,4 +39,5 @@ pd.get_dummies(df).head()
 
 # k Nearest Neighbors
 # k vizinhos mais próximos
-# Definir sequencia de regras para "chutar" o preço
+
+ 
