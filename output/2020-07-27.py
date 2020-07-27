@@ -10,8 +10,8 @@
 
 
 
- ### 3. Qual seria o melhor preço para as seguites imóveis (coletados da 
-primeira página do OLX)?
+### 3. Qual seria o melhor preço para as seguites imóveis (coletados da 
+ primeira página do OLX)?
 - Leste, 2 quartos, 100m2
 - Leste, 2 quartos, 43m2
 - Sul, 1 quarto, 41m2
@@ -22,6 +22,8 @@ primeira página do OLX)?
 - Categorizar áreas
    - Definir intervalos
 - Definir uma equação que correlacione area com aluguel
+$$aluguel = area * w + b$$
+ - Definir uma equação que correlacione area com aluguel
 $$aluguel = area * w + b$$
 
 import pandas as pd
