@@ -37,4 +37,5 @@ pd.get_dummies(df).head()
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
 
- 
+# Árvore de Decisão
+# Definir sequencia de regras para "chutar" o preço
