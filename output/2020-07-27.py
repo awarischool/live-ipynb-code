@@ -14,7 +14,8 @@ primeira página do OLX)?
     - b
     - c
 4. Brainstorming de estimativa de preço a partir da área
-  
+5. Implementar algumas ideias 
+ 
 
  
 
