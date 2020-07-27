@@ -31,6 +31,6 @@ pd.get_dummies(df).head()
 
 $$aluguel = area * w_1 + quartos * w_2 + zleste* w_3 + znorte* w_4 + 
 - Extendendo a equação da reta para todas as colunas
-zleste* w_3  + b$$
+zoeste* w_5 + zsul* w_6  + b$$
 
  
