@@ -6,8 +6,9 @@
 
 
 
-- Abrir planilha da última aula
-- Começar com o 
+ 1.   Abrir planilha da última aula
+2.   List item
+ 
 
  
 
