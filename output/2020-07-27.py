@@ -17,7 +17,8 @@
 - Sul, 1 quarto, 41m2
 - Sul, 1 quarto, 22m2
  #### Brainstorming
-- Media dos aps com 2 quartos na zona leste
+- Começar com variável que mais afeta
+- Média dos aps com 2 quartos na zona leste
 
  
 
