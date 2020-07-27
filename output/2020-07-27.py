@@ -44,19 +44,10 @@ X.head()
 # Regressão Linear
 # 𝑎𝑙𝑢𝑔𝑢𝑒𝑙=𝑎𝑟𝑒𝑎∗𝑤1+𝑞𝑢𝑎𝑟𝑡𝑜𝑠∗𝑤2+𝑧𝑙𝑒𝑠𝑡𝑒∗𝑤3+𝑧𝑛𝑜𝑟𝑡𝑒∗𝑤4+𝑧𝑜𝑒𝑠𝑡𝑒∗𝑤5+𝑧𝑠𝑢𝑙∗𝑤6+𝑏
 from sklearn.linear_model import LinearRegression
- LinearRegression()
- def LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=None)
-View source
-Ordinary least squares Linear Regression.
-LinearRegression fits a linear model with coefficients w = (w1, ..., wp) to minimize the residual sum of squares between the observed targets in the dataset, and the targets predicted by the linear approximation.
-Parameters
-fit_intercept : bool, optional, default True
-    Whether to calculate the intercept for this model. If set  
-    to False, no intercept will be used in calculations  
-    (i.e. data is expected to be centered).  
-normalize : bool, optional, default False
+ reg = LinearRegression()
+ 
 
-X
+ 
 
 y
 
