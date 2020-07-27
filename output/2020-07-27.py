@@ -51,7 +51,7 @@ from sklearn.linear_model import LinearRegression
 
 reg.fit(X, y)
 
-reg
+reg.coef_
 
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
