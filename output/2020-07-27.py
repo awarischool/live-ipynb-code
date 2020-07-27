@@ -37,7 +37,14 @@ df_onehot.head()
 y = df_onehot['preco']
 y.head()
 
-df_onehot[['quartos', '']]
+df_onehot.drop()
+df_onehot.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise')
+Drop specified labels from rows or columns.
+Remove rows or columns by specifying label names and corresponding axis, or by specifying directly index or column names. When using a multi-index, labels on different levels can be removed by specifying the level.
+Parameters
+labels : single label or list-like
+    Index or column labels to drop.  
+axis : {0 or 'index', 1 or 'columns'}, default 0
 
 # Regressão Linear
 # 𝑎𝑙𝑢𝑔𝑢𝑒𝑙=𝑎𝑟𝑒𝑎∗𝑤1+𝑞𝑢𝑎𝑟𝑡𝑜𝑠∗𝑤2+𝑧𝑙𝑒𝑠𝑡𝑒∗𝑤3+𝑧𝑛𝑜𝑟𝑡𝑒∗𝑤4+𝑧𝑜𝑒𝑠𝑡𝑒∗𝑤5+𝑧𝑠𝑢𝑙∗𝑤6+𝑏
