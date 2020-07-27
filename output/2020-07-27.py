@@ -17,4 +17,4 @@ df = pd.read_csv('https://raw.githubusercontent.com/WittmannF/awari-calculadora-
 
 df.head()
 
-df
+df[df['zona']==]
