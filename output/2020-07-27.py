@@ -51,6 +51,8 @@ from sklearn.linear_model import LinearRegression
 
 reg.fit(X, y)
 
+reg.intercept_
+
 reg.coef_
 
 X.head()
