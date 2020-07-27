@@ -34,8 +34,8 @@ df_onehot
 $$aluguel = area * w_1 + quartos * w_2 + zleste* w_3 + znorte* w_4 + 
 - Extendendo a equação da reta para todas as colunas
 zoeste* w_5 + zsul* w_6  + b$$
-$$aluguel = area * w_1 + quartos * w_2 + zleste* w_3 + znorte* w_4 + 
-zoeste* w_5 + zsul* w_6  + b$$
+$$y = X * w + quartos * w_2 + zleste* w_3 + znorte* w_4 + zoeste* w_5 + 
+zsul* w_6  + b$$
 
 # Regressão Linear
 # 𝑎𝑙𝑢𝑔𝑢𝑒𝑙=𝑎𝑟𝑒𝑎∗𝑤1+𝑞𝑢𝑎𝑟𝑡𝑜𝑠∗𝑤2+𝑧𝑙𝑒𝑠𝑡𝑒∗𝑤3+𝑧𝑛𝑜𝑟𝑡𝑒∗𝑤4+𝑧𝑜𝑒𝑠𝑡𝑒∗𝑤5+𝑧𝑠𝑢𝑙∗𝑤6+𝑏
