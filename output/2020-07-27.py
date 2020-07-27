@@ -16,7 +16,8 @@ primeira página do OLX)?
 4. Brainstorming de estimativa de preço a partir da área
 5. Implementar algumas ideias "na mão"
 6. Sklearn Map e Replicação em Python
-7. 
+7. Alguns Problemas
+8. Tra
  
 
  
