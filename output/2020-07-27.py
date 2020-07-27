@@ -27,6 +27,6 @@ df_filtrado
 
 df_filtrado.describe()
 
-pd.get_dummies?
+pd.get_dummies(df)
 
  
