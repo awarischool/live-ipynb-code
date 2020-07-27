@@ -13,8 +13,8 @@ primeira página do OLX)?
     - a
     - b
     - c
-4. 
- 
+4. Brainstorming de preço a partir da área
+  
 
  
 
