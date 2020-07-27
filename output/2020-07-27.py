@@ -17,7 +17,7 @@
 - Sul, 1 quarto, 41m2
 - Sul, 1 quarto, 22m2
  #### Brainstorming
-- Media 
+- Media dos aps com 2 quartos na zona leste
 
  
 
