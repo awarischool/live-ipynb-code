@@ -29,7 +29,7 @@ $$aluguel = area * w_1 + quartos * w_2 + b$$
 - Como tratar a coluna zonas
    - S1: Associar um número inteiro para cada zona (1 - Norte, 2 - Sul, 3 
 - Leste, 4 - Oeste)
- 
+    
 
 import pandas as pd
 df = pd.read_csv('https://raw.githubusercontent.com/WittmannF/awari-calculadora-imoveis-may-20/master/1-web-scraping/dados_calculadora_imoveis_aula.csv
