@@ -41,9 +41,7 @@ y.head()
 X = df_onehot.drop('preco', axis=1)
 X.head()
 
-X
-X
-DataFrame
+X.median()
 
 X.fillna()
 
