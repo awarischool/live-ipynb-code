@@ -59,8 +59,10 @@ X.head()
 
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
+ 
 
 # k Nearest Neighbors
 # k vizinhos mais próximos
+ 
 
  
