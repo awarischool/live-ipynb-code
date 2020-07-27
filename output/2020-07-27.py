@@ -27,7 +27,9 @@ df_filtrado
 
 df_filtrado.describe()
 
-df_onehot = pd.get_dummies(df).head()
+df_onehot = pd.get_dummies(df)
+
+df_onehot
 
 
 
