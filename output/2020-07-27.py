@@ -46,6 +46,8 @@ reg.score(X, y)
  reg.intercept_
  reg.predict(np.array([[3, 5]]))
 
+X
+
 y
 
 # Árvore de Decisão
