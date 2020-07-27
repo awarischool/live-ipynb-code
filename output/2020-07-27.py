@@ -29,7 +29,7 @@ df_filtrado.describe()
 
 pd.get_dummies(df).head()
 
-$$aluguel = area * w_1 + quartos * w_2 +  + b$$
+$$aluguel = area * w_1 + quartos * w_2 + z + b$$
 - Extendendo a equação da reta para todas as colunas
 
  
