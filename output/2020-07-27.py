@@ -10,8 +10,6 @@
 
 
 
-print('print ola mundo')
-
  
 
  
