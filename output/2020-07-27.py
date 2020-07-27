@@ -48,16 +48,6 @@ from sklearn.linear_model import LinearRegression
  
 
 reg.
-copy_X
-bool
-fit
-fit_intercept
-get_params
-n_jobs
-normalize
-predict
-score
-set_params
 
 y
 
