@@ -23,7 +23,7 @@ primeira página do OLX)?
    - Definir intervalos
 - Definir uma equação que correlacione area com aluguel
 $$aluguel = area * w + b$$
- - Extendendo a equação 
+ - Extendendo a equação da reta para todas as colunas
 $$aluguel = area * w_1 + quartos * w_2 + b$$
  #### Problemas
 - Como tratar a coluna zonas
