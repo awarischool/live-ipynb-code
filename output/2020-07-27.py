@@ -17,7 +17,8 @@ primeira página do OLX)?
 5. Implementar algumas ideias "na mão"
 6. Sklearn Map e Replicação em Python
 7. Alguns Problemas
-8. Tra
+8. Train test split
+9. Outlier, Onehot e FillN
  
 
  
