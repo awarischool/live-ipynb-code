@@ -47,15 +47,7 @@ from sklearn.linear_model import LinearRegression
  reg = LinearRegression()
  
 
-reg.fit()
-reg.fit(X, y, sample_weight=None)
-Fit linear model.
-Parameters
-X : {array-like, sparse matrix} of shape (n_samples, n_features)
-    Training data  
-y : array-like of shape (n_samples,) or (n_samples, n_targets)
-    Target values. Will be cast to X's dtype if necessary  
-sample_weight : array-like of shape (n_samples,), default=None
+reg.fit(X, y)
 
 y
 
