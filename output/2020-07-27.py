@@ -37,5 +37,6 @@ pd.get_dummies(df).head()
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
 
-# k Nearest Neighbohrs
+# k Nearest Neighbors
+# k vizinhos mais próximos
 # Definir sequencia de regras para "chutar" o preço
