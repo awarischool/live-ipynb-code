@@ -25,4 +25,6 @@ max_area = 120
 
 df_filtrado
 
-df_filtrado.des
+df_filtrado.describe()
+
+ 
