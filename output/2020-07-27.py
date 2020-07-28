@@ -83,10 +83,9 @@ y_true = [1680, 3590]
 
 ## Problemas e próximos passos
 - Mais dados para avaliar os resultados (no momento somente há dois)
-- Não foi reservados dados à parte para avaliar os estimadores **bold 
-text**
+- **Não foi reservados dados à parte para avaliar os estimadores **
     - Solução: Reservar um conjunto de testes (25% dos dados para 
 avaliação)
- 
+- 
 
 #
