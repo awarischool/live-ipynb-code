@@ -90,5 +90,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
 len(X_train)
 
 len(X_test)
-len(obj)
-Return the number of items in a container.
+
+reg_dt = DecisionTreeRegressor(random_state=0)
+reg_dt.fit(X_train, y)
