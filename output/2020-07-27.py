@@ -55,7 +55,7 @@ reg.intercept_
 
 reg.coef_
 
-X.head()
+# Prev
 
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
