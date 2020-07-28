@@ -75,4 +75,6 @@ from sklearn.neighbors import KNeighborsRegressor
 neigh = KNeighborsRegressor()
 neigh.fit(X, y)
 
- 
+# Prever para Leste, 2 quartos, 100m2
+# E para Sul, 1 quarto, 41m2
+reg_dt.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
