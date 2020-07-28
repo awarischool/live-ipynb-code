@@ -56,7 +56,7 @@ reg.intercept_
 reg.coef_
 
 # Prever para Leste, 2 quartos, 100m2
-reg.predict([[2, 100, ], []])
+reg.predict([[2, 100, 1, 0, 0, 0], []])
 
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
