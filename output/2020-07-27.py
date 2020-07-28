@@ -92,4 +92,6 @@ len(X_train)
 len(X_test)
 
 reg_dt = DecisionTreeRegressor(random_state=0)
-reg_dt.fit(X_train, y)
+reg_dt.fit(X_train, y_train)
+
+ 
