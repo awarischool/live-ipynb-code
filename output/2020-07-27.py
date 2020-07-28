@@ -81,12 +81,6 @@ neigh.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
 
 y_true = [1680, 3590]
 
-- Mais dados para avaliar os resultados (no momento somente há dois)
-## Problemas e próximos passos
-- **Não foi reservados dados à parte para avaliar os estimadores **
-    - Solução: Reservar um conjunto de testes (25% dos dados para 
-avaliação)
-- Mais tratamentos nos dados (como remoção de outlier)
-- 
 
-#
+
+# Divisão Treino e Teste
