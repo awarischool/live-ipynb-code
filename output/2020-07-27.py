@@ -94,10 +94,6 @@ len(X_test)
 reg_dt = DecisionTreeRegressor(random_state=0)
 reg_dt.fit(X_train, y_train)
 
-reg_dt.score(X_test, )
-reg_dt.score(X, y, sample_weight=None)
-Return the coefficient of determination R^2 of the prediction.
-The coefficient R^2 is defined as (1 - u/v), where u is the residual sum of squares ((y_true - y_pred) ** 2).sum() and v is the total sum of squares ((y_true - y_true.mean()) ** 2).sum(). The best possible score is 1.0 and it can be negative (because the model can be arbitrarily worse). A constant model that always predicts the expected value of y, disregarding the input features, would get a R^2 score of 0.0.
-Parameters
-X : array-like of shape (n_samples, n_features)
-    Test samples. For some estimators this may be a  
+reg_dt.score(X_test, y_test)
+
+ 
