@@ -84,4 +84,4 @@ y_true = [1680, 3590]
 
 
 # Divisão Treino e Teste
- 
+from sklearn.model_selection import train_test_split
