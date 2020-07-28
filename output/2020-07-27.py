@@ -65,7 +65,7 @@ from sklearn.tree import DecisionTreeRegressor
 reg_dt = DecisionTreeRegressor(random_state=0)
 reg_dt.fit(X, y)
 
-reg_dt.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
+ reg_dt.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
 
 # k Nearest Neighbors
 # k vizinhos mais próximos
