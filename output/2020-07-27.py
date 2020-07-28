@@ -61,7 +61,9 @@ reg.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
 
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
- 
+from sklearn.tree import DecisionTreeRegressor
+regressor = DecisionTreeRegressor(random_state=0)
+cross_val_score(regressor, X, y, cv=10)
 
 # k Nearest Neighbors
 # k vizinhos mais próximos
