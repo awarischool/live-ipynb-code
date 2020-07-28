@@ -79,4 +79,4 @@ neigh.fit(X, y)
 # E para Sul, 1 quarto, 41m2
 neigh.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
 
-y_true
+y_true = [1680, ]
