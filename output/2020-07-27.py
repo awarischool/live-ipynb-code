@@ -83,6 +83,6 @@ y_true = [1680, 3590]
 
 - Mais dados para avaliar os resultados (no momento somente há dois)
 ## Problemas e próximos passos
-- 
+- Não foi reservados dados à parte para avaliar os esti
 
 #
