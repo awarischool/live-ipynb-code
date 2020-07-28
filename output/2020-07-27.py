@@ -72,7 +72,7 @@ reg_dt.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
 # k Nearest Neighbors
 # k vizinhos mais próximos
 from sklearn.neighbors import KNeighborsRegressor
-neigh = KNeighborsRegressor(n_neighbors=2)
+neigh = KNeighborsRegressor()
 neigh.fit(X, y)
 
  
