@@ -81,7 +81,8 @@ neigh.predict([[2, 100, 1, 0, 0, 0], [1, 41, 0, 0, 0, 1]])
 
 y_true = [1680, 3590]
 
+- Mais dados para avaliar os resultados (no momento somente há dois)
 ## Problemas e próximos passos
-- Mais 
+- 
 
 #
