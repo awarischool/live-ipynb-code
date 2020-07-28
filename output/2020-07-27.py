@@ -86,6 +86,6 @@ y_true = [1680, 3590]
 - **Não foi reservados dados à parte para avaliar os estimadores **
     - Solução: Reservar um conjunto de testes (25% dos dados para 
 avaliação)
-- 
+- Mais 
 
 #
