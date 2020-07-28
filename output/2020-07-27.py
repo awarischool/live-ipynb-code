@@ -56,27 +56,7 @@ reg.intercept_
 reg.coef_
 
 # Prever para Leste, 2 quartos, 100m2
-reg.predict([[]])
-%%!
-abs
-%alias
-%alias_magic
-all
-and
-any
-ArithmeticError
-as
-ascii
-assert
-X=
-reg.predict(X)
-Predict using the linear model.
-Parameters
-X : array_like or sparse matrix, shape (n_samples, n_features)
-    Samples.  
-Returns
-C : array, shape (n_samples,)
-    Returns predicted values.  
+reg.predict([[], []])
 
 # Árvore de Decisão
 # Definir sequencia de regras para "chutar" o preço
