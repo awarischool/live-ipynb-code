@@ -10,4 +10,6 @@ df.describe().T
 
 df['Job Title'].value_counts()
 
+df['Job Title'].value_counts?
+
  
