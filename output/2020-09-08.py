@@ -95,4 +95,4 @@ for col in cat_cols:
 
 words = ' '.join(df['Job Description'].values)
 
- 
+from wordcloud import WordCloud
