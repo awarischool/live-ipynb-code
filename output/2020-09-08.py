@@ -12,6 +12,6 @@ df['Job Title'].value_counts(normalize=True)
 
 df['job_simp'].value_counts()
 
-df[df['job_simp']=='na']
+df[df['job_simp']=='na'].h
 
  
