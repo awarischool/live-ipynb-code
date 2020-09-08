@@ -37,4 +37,17 @@ sns.barplot(data=df, x='job_simp', y='avg_salary')
 
 df['avg_salary'].hist()
 
- 
+sns.
+barplot
+sns.barplot(x=None, y=None, hue=None, data=None, order=None, hue_order=None, estimator=<function mean at 0x7fc2d482f840>, ci=95, n_boot=1000, units=None, seed=None, orient=None, color=None, palette=None, saturation=0.75, errcolor='.26', errwidth=None, capsize=None, dodge=True, ax=None, **kwargs)
+blend_palette
+boxenplot
+boxplot
+categorical
+catplot
+choose_colorbrewer_palette
+choose_cubehelix_palette
+choose_dark_palette
+choose_diverging_palette
+choose_light_palette
+clustermap
