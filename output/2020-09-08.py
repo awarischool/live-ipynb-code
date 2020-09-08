@@ -75,8 +75,6 @@ df_cat = df[cat_cols]
 col = cat_cols[0]
 
 cat_num = df_cat[col].value_counts()
-Series: cat_num
-Series with shape (200,)
 
 cat_num
 
@@ -89,4 +87,5 @@ for col in cat_cols:
   plt.figure(figsize=(16, 8))
   chart = sns.barplot(x=cat_num.index, y=cat_num)
   chart.set_xticklabels(chart.get_xticklabels(), rotation=90)
+  cat_num = df_cat[col].value_counts()
   plt.plot()
