@@ -105,6 +105,11 @@ wc = WordCloud()
 wc.generate(words[:1000])
 plt.show()
 
- 
+wc= WordCloud(background_color="white", random_state=1,stopwords=STOPWORDS, max_words = 2000
+wc.generate(text)
+ plt.figure(figsize=[10,10])
+plt.imshow(wc,interpolation="bilinear")
+plt.axis('off')
+plt.show()
 
  
