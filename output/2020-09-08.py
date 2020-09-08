@@ -14,6 +14,6 @@ df['job_simp'].value_counts()
 
 df[df['job_simp']=='na'].head()
 
-df.groupby('job_simp').mean()
+df.groupby('job_simp').mean()['avg_salary']
 
  
