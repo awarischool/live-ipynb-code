@@ -22,4 +22,6 @@ job_state_avg_salary.sort_values(ascending=False).head()
 
 import seaborn as sns
 
-sn
+sns.barplot?
+
+ 
