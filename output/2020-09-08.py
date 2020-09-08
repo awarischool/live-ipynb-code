@@ -65,6 +65,7 @@ df.describe()
 
 correlations_num_vals = df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Rating']].corr()
 
-sns.heatmap(correlations_num_vals)
+cmap = sns.diverging_palette(220, 10, as_cmap=True)
+sns.heatmap(correlations_num_vals, )
 
  
