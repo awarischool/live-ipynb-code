@@ -70,6 +70,6 @@ sns.heatmap(correlations_num_vals, cmap=cmap, center=0)
 
 cat_cols = ['Location', 'Headquarters', 'Size','Type of ownership', 'Industry', 'Sector', 'Revenue', 'company_txt', 'job_state','same_state', 'python_yn'
        'spark', 'aws', 'excel', 'job_simp', 'seniority']
-df_cat = df[]
+df_cat = df[cat_cols]
 
  
