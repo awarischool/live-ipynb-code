@@ -41,7 +41,7 @@ df.head()
 
 df.describe().columns
 
-num_cols = []
+num_cols = ['Rating', 'Founded', 'hourly', 'employer_provided', ]
 sns.pairplot(df[num_cols])
 
  
