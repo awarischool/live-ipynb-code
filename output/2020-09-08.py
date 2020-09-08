@@ -102,6 +102,9 @@ words[:1000]
 
 from nltk.corpus import stopwords
 
+import nltk
+nltk.download('stopwords')
+
 stopwords.words('english')
 
 wc = WordCloud()
