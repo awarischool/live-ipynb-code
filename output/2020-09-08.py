@@ -8,7 +8,6 @@ df.info()
 
 df.describe().T
 
-df['Job Title'].
-config/
+df['Job Title'].value_counts()
 
  
