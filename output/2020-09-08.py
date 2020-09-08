@@ -66,6 +66,11 @@ df.describe()
 correlations_num_vals = df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Rating']].corr()
 
 cmap = sns.diverging_palette(220, 10, as_cmap=True)
-sns.heatmap(correlations_num_vals, )
+sns.heatmap(correlations_num_vals, cmap=cmap, center=0)
+sns.heatmap(data, vmin=None, vmax=None, cmap=None, center=None, robust=False, annot=None, fmt='.2g', annot_kws=None, linewidths=0, linecolor='white', cbar=True, cbar_kws=None, cbar_ax=None, square=False, xticklabels='auto', yticklabels='auto', mask=None, ax=None, **kwargs)
+Plot rectangular data as a color-encoded matrix.
+This is an Axes-level function and will draw the heatmap into the currently-active Axes if none is provided to the ax argument. Part of this Axes space will be taken and used to plot a colormap, unless cbar is False or a separate Axes is provided to cbar_ax.
+Parameters
+data : rectangular dataset
 
  
