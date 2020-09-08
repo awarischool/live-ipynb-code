@@ -14,4 +14,5 @@ df['job_simp'].value_counts()
 
 df[df['job_simp']=='na'].head()
 
-df.groupby('')
+df.groupby('job_simp').
+config/
