@@ -59,4 +59,4 @@ df.boxplot(column = ['age'])
 
 df['age'].describe()
 
- 
+sns.boxplot(data=df)
