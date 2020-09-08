@@ -35,7 +35,7 @@ df.groupby('job_simp').mean()['avg_salary']
 plt.figure(figsize=(12, 8))
 sns.barplot(data=df, x='job_simp', y='avg_salary')
 
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(16, 8))
 sns.barplot(data=df, x='job_state', y='avg_salary')
 
 df['avg_salary'].hist()
