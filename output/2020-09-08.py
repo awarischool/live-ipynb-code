@@ -100,9 +100,9 @@ from wordcloud import WordCloud
 
 words[:1000]
 
-wc = WordCloud
+wc = WordCloud()
 
- 
+wc.generate()
 
  
 
