@@ -72,4 +72,8 @@ cat_cols = ['Location', 'Headquarters', 'Size','Type of ownership', 'Industry', 
        'spark', 'aws', 'excel', 'job_simp', 'seniority']
 df_cat = df[cat_cols]
 
-i = cat_cols[]
+col = cat_cols[0]
+
+col
+
+ 
