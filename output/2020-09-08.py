@@ -91,7 +91,7 @@ for col in cat_cols:
   chart.set_title(col)
   plt.plot()
 
-' '.join(['']
+' '.join(['hello', 'world'])
 
 ' '.join(df['Job Description'].values)
 
