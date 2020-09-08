@@ -103,12 +103,14 @@ words[:1000]
 wc = WordCloud()
 wc.generate(words[:1000])
 plt.imshow(wc,interpolation="bilinear")
+plt.figure(figsize=[10,10])
 plt.axis('off')
+plt.show()
 
 wc
 
 wc= WordCloud()
 wc.generate(words[:1000])
-    plt.show()
+     
 
  
