@@ -102,7 +102,8 @@ words[:1000]
 
 wc = WordCloud()
 
-wc.generate()
+wc.generate(words[:1000])
+plt.sho
 
  
 
