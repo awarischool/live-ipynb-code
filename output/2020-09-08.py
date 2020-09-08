@@ -68,7 +68,7 @@ correlations_num_vals = df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Ra
 cmap = sns.diverging_palette(220, 10, as_cmap=True)
 sns.heatmap(correlations_num_vals, cmap=cmap, center=0)
 
-cat_cols = ['Location', 'Headquarters', 'Size','Type of ownership', 'Industry', 'Sector', 
+cat_cols = ['Location', 'Headquarters', 'Size','Type of ownership', 'Industry', 'Sector', 'Revenue', 'company_txt', 'job_state','same_state', 'python_yn'
        'spark', 'aws', 'excel', 'job_simp', 'seniority']
 df_cat = df[cat_cols]
 
@@ -101,6 +101,8 @@ from wordcloud import WordCloud
 words[:1000]
 
 from nltk.corpus import stopwords
+
+stopwords.words('english')
 
 wc = WordCloud()
 wc.generate(words[:1000])
