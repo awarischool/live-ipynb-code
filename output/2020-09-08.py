@@ -6,4 +6,6 @@ df.head()
 
 df.info()
 
-df.de
+df.describe()
+
+ 
