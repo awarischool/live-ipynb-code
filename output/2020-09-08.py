@@ -100,7 +100,7 @@ from wordcloud import WordCloud
 
 words[:1000]
 
- 
+from nltk.corpus import stopwords
 
 wc = WordCloud()
 wc.generate(words[:1000])
