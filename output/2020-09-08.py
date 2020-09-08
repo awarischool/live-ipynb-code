@@ -91,18 +91,6 @@ for col in cat_cols:
   chart.set_title(col)
   plt.plot()
 
-df['J']
-'avg_salary'
-'aws'
-'Company Name'
-'company_txt'
-'Competitors'
-'desc_len'
-'employer_provided'
-'excel'
-'Founded'
-'Headquarters'
-'hourly'
-'age'
+print(df['Job Description'][0])
 
  
