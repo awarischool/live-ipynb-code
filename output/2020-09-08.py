@@ -100,6 +100,8 @@ from wordcloud import WordCloud
 
 words[:1000]
 
+ 
+
 wc = WordCloud()
 wc.generate(words[:1000])
 plt.imshow(wc,interpolation="bilinear")
