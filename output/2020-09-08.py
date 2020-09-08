@@ -39,6 +39,13 @@ df['avg_salary'].hist()
 
 df.head()
 
+df.des()
+desc_len
+describe
+df.describe(percentiles=None, include=None, exclude=None) -> ~FrameOrSeries
+dtypes
+drop_duplicates
+
 num_cols = []
 sns.pairplot(df[num_cols])
 
