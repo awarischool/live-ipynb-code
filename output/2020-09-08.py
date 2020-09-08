@@ -17,8 +17,5 @@ df[df['job_simp']=='na'].head()
 df.groupby('job_simp').mean()['avg_salary']
 
 df.groupby('job_state').mean()['avg_salary']
-DataFrame: df
-View
-DataFrame with shape (742, 32)
 
  
