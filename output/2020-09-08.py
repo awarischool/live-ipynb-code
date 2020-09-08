@@ -22,6 +22,10 @@ job_state_avg_salary.sort_values(ascending=False).head()
 
 import seaborn as sns
 
+import seaborn as sns
+tips = sns.load_dataset("tips")
+ax = sns.barplot(x="day", y="total_bill", data=tips)
+
 df.groupby('job_simp').mean()['avg_salary']
 
 sns.barplot(data= )
