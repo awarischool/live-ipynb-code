@@ -32,7 +32,7 @@ tips.head()
 
 df.groupby('job_simp').mean()['avg_salary']
 
-plt.figure()
+plt.figure(figsize=())
 sns.barplot(data=df, x='job_simp', y='avg_salary')
 
  
