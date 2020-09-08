@@ -61,4 +61,6 @@ df['age'].describe()
 
 sns.boxplot(x=df['age'])
 
-df.desc
+df.describe()
+
+df[['']]
