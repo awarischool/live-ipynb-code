@@ -8,7 +8,7 @@ df.info()
 
 df.describe().T
 
-df['Job Title'].value_counts()
+df['Job Title'].value_counts(normalize=True)
 
 df['Job Title'].value_counts?
 
