@@ -63,4 +63,4 @@ sns.boxplot(x=df['age'])
 
 df.describe()
 
-df[['']]
+df[['avg_salary', '']]
