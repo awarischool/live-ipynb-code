@@ -89,6 +89,7 @@ for col in cat_cols:
   chart.set_xticklabels(chart.get_xticklabels(), rotation=90)
   cat_num = df_cat[col].value_counts()
   chart.set_title(col)
+  cat_num
   plt.plot()
 
  
