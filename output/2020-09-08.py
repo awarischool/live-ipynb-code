@@ -26,6 +26,8 @@ import seaborn as sns
 tips = sns.load_dataset("tips")
 ax = sns.barplot(x="day", y="total_bill", data=tips)
 
+tips.head()
+
 df.groupby('job_simp').mean()['avg_salary']
 
 sns.barplot(data= )
