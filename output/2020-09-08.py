@@ -93,6 +93,6 @@ for col in cat_cols:
 
 ' '.join(['hello', 'world'])
 
-' '.join(df['Job Description'].values)
+words = ' '.join(df['Job Description'].values)
 
  
