@@ -37,8 +37,7 @@ sns.barplot(data=df, x='job_simp', y='avg_salary')
 
 df['avg_salary'].hist()
 
-sns.pairplot(df[cools])
-%colors
-%colors(parameter_s='')
+num_cols = []
+sns.pairplot(df[num_cols])
 
  
