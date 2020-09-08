@@ -96,7 +96,7 @@ for col in cat_cols:
 words = ' '.join(df['Job Description'].values)
 
 #!pip install wordcloud
-from wordcloud import WordCloud
+from wordcloud import WordCloud, STO
 
 words[:1000]
 
@@ -109,7 +109,7 @@ STOPWORDS = stopwords.words('english')
 
 wc = WordCloud()
 wc.generate(words[:1000])
-plt.imshow(wc,interpolation="bilinear")
+plt.imshow(wc,interpolation="bilinear", stopwords=STOPWORDS)
 plt.figure(figsize=[10,10])
 plt.axis('off')
 plt.show()
