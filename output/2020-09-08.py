@@ -88,20 +88,7 @@ for col in cat_cols:
   chart = sns.barplot(x=cat_num.index, y=cat_num)
   chart.set_xticklabels(chart.get_xticklabels(), rotation=90)
   cat_num = df_cat[col].value_counts()
-   chart.set_t
+  chart.set_title(col)
   plt.plot()
-set_title
-chart.set_title(label, fontdict=None, loc=None, pad=None, **kwargs)
-set_transform
-set_xticklabels
-set_xticks
-set_yticklabels
-set_yticks
-set_autoscale_on
-set_autoscalex_on
-set_autoscaley_on
-set_path_effects
-set_contains
-set_rasterization_zorder
 
  
