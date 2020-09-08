@@ -55,4 +55,6 @@ sns.pairplot(df[num_cols])
 num_cols = ['python_yn', 'R_yn','spark', 'aws', 'excel', 'desc_len', 'num_comp']
 sns.pairplot(df[num_cols])
 
-df.boxplot()
+df.boxplot(column = ['age','avg_salary','Rating'])
+
+ 
