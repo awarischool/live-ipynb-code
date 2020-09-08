@@ -57,4 +57,4 @@ sns.pairplot(df[num_cols])
 
 df.boxplot(column = ['age'])
 
- 
+de
