@@ -10,8 +10,8 @@ df.describe().T
 
 df['Job Title'].value_counts(normalize=True)
 
-df.value_counts()
+df['job_simp'].value_counts()
 
- 
+df[df['job_simp']=='na']
 
  
