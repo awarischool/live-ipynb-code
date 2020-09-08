@@ -63,6 +63,8 @@ sns.boxplot(x=df['age'])
 
 df.describe()
 
-df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Rating']].corr()
+correlations_num_vals = df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Rating']].corr()
 
-sns.heatmap()
+sns.heatmap(correlations_num_vals)
+
+ 
