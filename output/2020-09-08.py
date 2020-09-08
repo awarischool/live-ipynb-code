@@ -35,4 +35,4 @@ df.groupby('job_simp').mean()['avg_salary']
 plt.figure(figsize=(12, 8))
 sns.barplot(data=df, x='job_simp', y='avg_salary')
 
- 
+df.
