@@ -45,3 +45,5 @@ num_cols = ['Rating', 'Founded', 'hourly', 'employer_provided']
 sns.pairplot(df[num_cols])
 
 num_cols = ['min_salary', 'max_salary', 'avg_salary', 'same_state', 'age']
+
+num_cols = ['python_yn', 'R_yn','spark', 'aws', 'excel', 'desc_len', 'num_comp']
