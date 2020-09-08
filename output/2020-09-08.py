@@ -10,6 +10,6 @@ df.describe().T
 
 df['Job Title'].value_counts(normalize=True)
 
-df['Job Title'].value_counts?
+df['job_simp'].value_counts()
 
  
