@@ -14,4 +14,17 @@ df['job_simp'].value_counts()
 
 df[df['job_simp']=='na'].head()
 
-df
+df.
+describe
+df.describe(percentiles=None, include=None, exclude=None) -> ~FrameOrSeries
+diff
+div
+divide
+dot
+drop
+drop_duplicates
+droplevel
+dropna
+dtypes
+duplicated
+employer_provided
