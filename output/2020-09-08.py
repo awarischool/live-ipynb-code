@@ -63,4 +63,6 @@ sns.boxplot(x=df['age'])
 
 df.describe()
 
-df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Rating']]
+df[['avg_salary', 'max_salary', 'min_salary', 'age', 'Rating']].corr()
+
+ 
