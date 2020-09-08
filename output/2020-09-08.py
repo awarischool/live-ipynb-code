@@ -8,6 +8,7 @@ df.info()
 
 df.describe().T
 
-df['Job Title']
+df['Job Title'].
+config/
 
  
