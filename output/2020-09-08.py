@@ -95,4 +95,11 @@ for col in cat_cols:
 
 words = ' '.join(df['Job Description'].values)
 
+!pip install wordcloud
 from wordcloud import WordCloud
+
+ 
+
+ 
+
+ 
