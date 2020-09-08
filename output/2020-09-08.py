@@ -16,4 +16,4 @@ df[df['job_simp']=='na'].head()
 
 df.groupby('job_simp').mean()['avg_salary']
 
- 
+df.groupby('job_simp').mean()['avg_salary']
