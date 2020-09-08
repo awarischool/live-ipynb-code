@@ -101,9 +101,9 @@ from wordcloud import WordCloud
 words[:1000]
 
 wc = WordCloud()
-
 wc.generate(words[:1000])
-plt.show()
+
+ 
 
 wc= WordCloud()
 wc.generate(words[:1000])
