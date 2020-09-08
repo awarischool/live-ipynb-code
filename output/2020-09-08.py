@@ -20,4 +20,6 @@ job_state_avg_salary = df.groupby('job_state').mean()['avg_salary']
 
 job_state_avg_salary.sort_values(ascending=False).head()
 
- 
+import seaborn as sns
+
+sn
