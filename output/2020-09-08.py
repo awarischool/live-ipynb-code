@@ -78,6 +78,7 @@ cat_num = df_cat[col].value_counts()
 
 cat_num
 
-sns.barplot(x=cat_num.index, y=cat_num)
+chart = sns.barplot(x=cat_num.index, y=cat_num)
+ 
 
  
