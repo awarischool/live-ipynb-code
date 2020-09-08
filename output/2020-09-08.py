@@ -8,4 +8,4 @@ df.info()
 
 df.describe().T
 
-[1 3 5 7 9 10 12 15]
+ 
