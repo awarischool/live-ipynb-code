@@ -91,4 +91,4 @@ for col in cat_cols:
   chart.set_title(col)
   plt.plot()
 
- 
+df
