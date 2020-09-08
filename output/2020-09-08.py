@@ -94,14 +94,13 @@ for col in cat_cols:
 ' '.join(['hello', 'world'])
 
 words = ' '.join(df['Job Description'].values)
-str: words
-View
-'Data Scientist\nLocat...'
 
 #!pip install wordcloud
 from wordcloud import WordCloud
 
-WordCloud
+words[:1000]
+
+wc = WordCloud
 
  
 
