@@ -8,6 +8,6 @@ df.info()
 
 df.describe().T
 
-df´~
+df['Job Title']
 
  
