@@ -74,6 +74,8 @@ df_cat = df[cat_cols]
 
 col = cat_cols[0]
 
-cat_num = df_cat[i].value_counts()
+cat_num = df_cat[col].value_counts()
+
+cat_num
 
  
