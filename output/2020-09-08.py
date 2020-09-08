@@ -18,8 +18,6 @@ df.groupby('job_simp').mean()['avg_salary']
 
 job_state_avg_salary = df.groupby('job_state').mean()['avg_salary']
 
-job_state_avg_salary.sort_values(ascending=Fals)
-False
-bool
+job_state_avg_salary.sort_values(ascending=False)
 
  
