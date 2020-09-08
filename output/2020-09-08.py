@@ -30,6 +30,6 @@ tips.head()
 
 df.groupby('job_simp').mean()['avg_salary']
 
-sns.barplot(data= )
+sns.barplot(data=df, x='' )
 
  
