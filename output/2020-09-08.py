@@ -8,4 +8,6 @@ df.info()
 
 df.describe().T
 
+df.head()
+
  
